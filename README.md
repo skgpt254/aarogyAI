@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+🧠 AarogyAI – Agentic AI for Predictive Hospital Management
+    Anticipate. Act. Avert.
 
-## Project info
+AarogyAI is an Agentic AI system built to help hospitals across India proactively manage patient surges during festivals, pollution spikes, and epidemics. It combines real-time data analysis, predictive modeling, and autonomous agent collaboration to deliver actionable insights for healthcare preparedness.
 
-**URL**: https://lovable.dev/projects/af40f4e0-70bf-48d3-9a24-f68bf4476294
+🚀 Overview
 
-## How can I edit this code?
+During major events like Diwali, Holi, or pollution-heavy winters, hospitals experience unpredictable surges in patients. AarogyAI’s multi-agent architecture anticipates these situations, optimizes staffing and supplies, and issues public and staff advisories — reducing chaos before it starts.
 
-There are several ways of editing your application.
+Built for MumbaiHacks 2025 – Healthtech Track, AarogyAI exemplifies the next generation of agentic AI in healthcare.
 
-**Use Lovable**
+🏗️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/af40f4e0-70bf-48d3-9a24-f68bf4476294) and start prompting.
+Backend: FastAPI · Python 3.11 · SQLAlchemy (async) · PostgreSQL · Redis
+AI/Agents: LangChain / AutoGen · OpenAI API / Ollama / DeepSeek · Prophet · XGBoost · OR-Tools
+Frontend: React · TailwindCSS · Vite
+Other: Docker · JWT Auth · Pytest · Jest · REST APIs
 
-Changes made via Lovable will be committed automatically to this repo.
+🤖 Core Agents
 
-**Use your preferred IDE**
+SentinelAgent – Gathers real-time event, pollution, and patient data; predicts surges using ML models.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+CoordinatorAgent – Uses optimization algorithms (OR-Tools) to recommend staffing and supply distribution.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+CareCompanionAgent – Engages with patients/staff via chat and SMS (Twilio or Telegram).
 
-Follow these steps:
+SupervisorAgent – Oversees coordination, memory, reasoning, and inter-agent communication.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🧩 Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+Predicts patient load during high-risk events
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Optimizes resource allocation and shift scheduling
 
-**Edit a file directly in GitHub**
+Generates public advisories and alerts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Interactive hospital dashboard for admins and staff
 
-**Use GitHub Codespaces**
+Secure JWT-based authentication and RBAC
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Modular async architecture optimized for scalability
 
-## What technologies are used for this project?
 
-This project is built with:
+🧠 How It Works
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+SentinelAgent pulls data from AQI APIs, festival/event calendars, and hospital DBs.
 
-## How can I deploy this project?
+Predictive models forecast surge probabilities.
 
-Simply open [Lovable](https://lovable.dev/projects/af40f4e0-70bf-48d3-9a24-f68bf4476294) and click on Share -> Publish.
+CoordinatorAgent runs optimization algorithms for staffing and resources.
 
-## Can I connect a custom domain to my Lovable project?
+CareCompanionAgent issues alerts and advice via chat or SMS.
 
-Yes, you can!
+SupervisorAgent coordinates the flow, ensuring the system stays autonomous yet accountable.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+💡 Future Enhancements
+
+Multi-hospital collaboration graph using agent swarms
+
+Integration with government health APIs (ICMR, NDHM)
+
+Self-healing agent reasoning loops for anomaly correction
+
+LLM fine-tuning for healthcare advisory dialogues
+
+
+🏆 About
+
+Developed by Team Crackers_ for MumbaiHacks 2025 – HealthTech Track.
+AarogyAI embodies the future of autonomous healthcare systems — where hospitals think, plan, and act before crises unfold.
